@@ -1,0 +1,92 @@
+Tutorial de Instalação e configuração do VSCODE
+
+(✅️) 1 site Conhecer o do VSCODE
+
+() 2 Instalação do VSCODE
+
+  PARA USUÁRIOS LINUX
+ - () sudo apt-get update
+ - () sudo apt-get install software-propriedades-common apt-transport-https wget
+- () wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+ - () sudo add-apt-repository "deb [arch = amd64] https://packages.microsoft.com/repos/vscode stable main"
+ - () sudo apt-get install code
+
+ PARA USUARIOS WINDOWS
+ - Acessar o site para vscode, baixar o programa, e realizar instalação
+
+() 3 Instalar o VsCode em português (Opcional, opte pode deixar em inglês)
+
+() 4 ​​- Instalar carne
+
+ - () PHP intelephense
+ - () Remarcação tudo em um
+ - () Par de suporte Colorizer 2
+ - () recuo-arco-íris
+ - () git-leans
+ - () gráfico git
+ - () vscode faker
+ - () ESLint
+ - () modo de apresentação 
+ - () ícones vscode
+ - () FAÇAM
+ - () Tag de fechamento automático
+ - () Path Intellisense
+ - () Renomeação automática
+ - () Formatar HTML em PHP
+ - () Getters e Setters PHP
+ - () Tema Monokai
+ - () depuração de PHP
+ - () construtor PHP
+ - () resolvedor de namespace php
+ - () PHP DocBlocker
+ - () Snippets PHP
+ - () Getter e Setter PHP
+ - () Minificar
+ - () Wakatime
+
+() 06 - Alguns atalhos interessantes
+
+  - Navegar: ctrl + p
+  - Paleta de comandos: ctrl + shift + p
+  - Abrir arquivo lado a lado: ctrl + clique com o mouse no arquivo
+  - Abrir explorador: ctrl + shift + e
+  - Modo Zen: ctrl + k, z
+  - Pular de linha: ctrl + g <numero da linha>
+  - mover linha: alt + pra cima ou alt + pra baixo
+  - duplicar linha pra cima ou pra baixo: alt + shit + pra cima ou pra baixo
+  - deletar uma linha: shift + comand + k
+  - alterar todos os valores de uma vez: ctrl + f OU CTRL + d
+
+() 07 - Configurações no settings.json
+
+ PARA USUARIOS LINUX
+ {
+    "workbench.iconTheme": "vscode-icons",
+    "todo-tree.tree.showScanModeButton": false,
+    "php.suggest.basic": falso,
+    "editor.formatOnSave": verdadeiro,
+    "mais bonita.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": verdadeiro,
+    "php.validate.run": "onType",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": verdadeiro,
+    "workbench.colorTheme": "Monokai",
+    "editor.fontWeight": "500",
+    "files.autoSave": "onFocusChange"
+}
+ 
+ - () Configuração do Prettier, para ele formatar sozinho assim que você salvar o arquivo
+      Obs .: o mais bonito funciona bem melhor quando se tem o nodejs instalado no sistema
+      - () instalar o nodejs
+            - $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+            - $ nvm install node # "node" é um alias para uma versão mais recente
+      
+      - () instalar o plugin do php no mais bonito
+      - () acessar uma pasta: $ cd ~ / .vscode / extensions / esbenp.prettier-vscode- *
+      - () dar o comando: $ npm install --save-dev prettier @ prettier / plugin-php
+
+PARA USUARIOS WINDOWS
+ 
+Instalar extensão  
+() 08 Sincronização de configurações
